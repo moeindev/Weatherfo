@@ -15,11 +15,18 @@ object Constants {
     const val BASE_URL: String = "https://api.openweathermap.org/data/2.5/"
 
     object DefaultLocation {
-        val name = "Kermanshah"
-        val lat: Double = 34.3277
-        val lon: Double = 47.0778
+        const val name = "Kermanshah"
+        const val lat: Double = 34.3277
+        const val lon: Double = 47.0778
     }
 
     const val DEFAULT_EXCLUDE = "minutely"
     const val DEFAULT_UNITS = "metric"
+
+    object PreferenceKey {
+        const val isSaved: String = "prefs_saved"
+        const val name: String = "prefs_name"
+        const val lat: String = "prefs_lat"
+        const val lon: String = "prefs_lon"
+    }
 }
