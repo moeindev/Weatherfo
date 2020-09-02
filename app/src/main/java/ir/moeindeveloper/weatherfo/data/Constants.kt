@@ -24,9 +24,11 @@ object Constants {
     const val DEFAULT_UNITS = "metric"
 
     object PreferenceKey {
+        const val prefs: String = "settings_pref"
         const val isSaved: String = "prefs_saved"
         const val name: String = "prefs_name"
         const val lat: String = "prefs_lat"
         const val lon: String = "prefs_lon"
     }
+
 }
