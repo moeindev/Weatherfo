@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Weatherfo</string>
+
+    <string name="try_again">Try again</string>
+
+    <string name="sample_temp">22°</string>
+
+    <string name="sample_time">16PM</string>
+
+    <string name="sample_day">Monday</string>
+
+
+    <string name="default_location_name">Kermanshah</string>
+
+
 </resources>

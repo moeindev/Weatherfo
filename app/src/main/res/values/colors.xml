@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#7766F6</color>
+    <color name="colorPrimaryDark">#7766F6</color>
     <color name="colorAccent">#03DAC5</color>
 
     <!-- evening resources -->
@@ -27,4 +27,8 @@
     <!-- text resource -->
     <color name="primaryTextColor">#FFFFFF</color>
     <color name="secondaryTextColor">#99FFFFFF</color>
+
+    <color name="colorLoading">@color/primaryTextColor</color>
+
+    <color name="colorLocationButton">#8CFFFEFD</color>
 </resources>
