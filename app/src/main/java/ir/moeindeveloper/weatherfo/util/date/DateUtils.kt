@@ -40,7 +40,7 @@ fun Int.toHour(): String {
 
 fun Int.toDayName(): String {
     return try {
-        val dtf = SimpleDateFormat("E")
+        val dtf = SimpleDateFormat("EEEE")
         val date = Date((this * 1000).toLong())
         dtf.format(date)
     } catch (ex: Exception) {
