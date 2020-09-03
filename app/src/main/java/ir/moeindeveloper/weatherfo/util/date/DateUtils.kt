@@ -1,5 +1,7 @@
 package ir.moeindeveloper.weatherfo.util.date
 
+import java.lang.Exception
+import java.text.SimpleDateFormat
 import java.util.*
 
 enum class DateEvents {
@@ -11,8 +13,9 @@ enum class DateEvents {
 }
 
 
-fun getDateEvent(): DateEvents {
+fun getDateEvent(date: Date? = null): DateEvents {
     val cal = Calendar.getInstance()
+    if (date != null) cal.time = date
     return when(cal.get(Calendar.HOUR_OF_DAY)) {
         in 0..6 -> DateEvents.DAWN
         in 7..11 -> DateEvents.MORNING
@@ -24,3 +27,34 @@ fun getDateEvent(): DateEvents {
 }
 
 
+fun Int.toHour(): String {
+    return try {
+        val dtf = SimpleDateFormat("hh a")
+        val date = Date((this * 1000).toLong())
+        dtf.format(date)
+    } catch (ex: Exception) {
+        ex.printStackTrace()
+        ""
+    }
+}
+
+fun Int.toDayName(): String {
+    return try {
+        val dtf = SimpleDateFormat("E")
+        val date = Date((this * 1000).toLong())
+        dtf.format(date)
+    } catch (ex: Exception) {
+        ex.printStackTrace()
+        ""
+    }
+}
+
+
+fun Int.toDate(): Date? {
+    return try {
+        Date((this * 1000).toLong())
+    } catch (ex: Exception) {
+        ex.printStackTrace()
+        null
+    }
+}
