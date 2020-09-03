@@ -27,7 +27,7 @@ class AppSettings @Inject constructor(private val preferences: SharedPreferences
 
     fun isSaved(): Boolean = preferences.getBoolean(Constants.PreferenceKey.isSaved,false)
 
-    fun getName(): String? = preferences.getString(Constants.PreferenceKey.name,null)
+    fun getName(): String? = preferences.getString(Constants.PreferenceKey.name,Constants.DefaultLocation.name)
 
     fun getLat(): Double? = preferences.getDouble(Constants.PreferenceKey.lat,
         Constants.DefaultLocation.lat)
