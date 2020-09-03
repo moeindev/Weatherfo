@@ -13,4 +13,7 @@
     <string name="default_location_name">Kermanshah</string>
 
 
+    <string name="snack_other_days">You\'re visiting other day\'s status</string>
+
+    <string name="show_today">Show today\'s weather</string>
 </resources>
