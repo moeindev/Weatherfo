@@ -19,16 +19,6 @@ android {
         versionName "1.0.0B"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments += [
-                        "room.schemaLocation":"$projectDir/schemas".toString(),
-                        "room.incremental":"true",
-                        "room.expandProjection":"true"]
-            }
-        }
-
     }
 
     buildTypes {
@@ -95,9 +85,6 @@ dependencies {
     //coil
     implementation "io.coil-kt:coil:0.11.0"
 
-    //secure preference
-    implementation 'com.scottyab:secure-preferences-lib:0.1.7'
-
     //lottie
     implementation "com.airbnb.android:lottie:3.4.1"
 
@@ -115,14 +102,5 @@ dependencies {
     implementation 'com.afollestad.material-dialogs:bottomsheets:3.3.0'
 
     implementation 'com.afollestad.material-dialogs:lifecycle:3.2.1'
-
-
-    //room
-    def room_version = "2.2.5"
-
-    implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
-    implementation "androidx.room:room-ktx:$room_version"
-
 
 }
