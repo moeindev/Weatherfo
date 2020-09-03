@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainTempTitleTextSize">62sp</dimen>
+    <dimen name="mainTempTitleMinTextSize">60sp</dimen>
+    <dimen name="mainTempTitleMaxTextSize">64sp</dimen>
+
+    <dimen name="mainFeelsTitleTextSize">32sp</dimen>
+    <dimen name="mainFeelsTitleMinTextSize">30sp</dimen>
+    <dimen name="mainFeelsTitleMaxTextSize">34sp</dimen>
+
+    <dimen name="mainTempIconWidth">220dp</dimen>
+    <dimen name="mainTempIconHeight">220dp</dimen>
+    <dimen name="mainTempTitleTopMargin">70dp</dimen>
+    <dimen name="mainTempIconTopMargin">53dp</dimen>
+    <dimen name="mainTempIconTranslationX">40dp</dimen>
+
+    <dimen name="hourlyItemWidth">70dp</dimen>
+    <dimen name="hourlyItemHeight">100dp</dimen>
+    <dimen name="hourlyItemImageHeight">60dp</dimen>
+
+    <dimen name="hourlyItemTempTextSize">14sp</dimen>
+    <dimen name="hourlyItemTempMinTextSize">12sp</dimen>
+    <dimen name="hourlyItemTempMaxTextSize">16sp</dimen>
+
+    <dimen name="hourlyItemTimeTextSize">12sp</dimen>
+    <dimen name="hourlyItemTimeMinTextSize">10sp</dimen>
+    <dimen name="hourlyItemTimeMaxTextSize">14sp</dimen>
+
+    <dimen name="dailyItemHeight">35dp</dimen>
+
+    <dimen name="dailyItemTextSize">14sp</dimen>
+    <dimen name="dailyItemMinTextSize">12sp</dimen>
+    <dimen name="dailyItemMaxTextSize">16sp</dimen>
+</resources>
