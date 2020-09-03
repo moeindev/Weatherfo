@@ -12,7 +12,7 @@ import ir.moeindeveloper.weatherfo.data.repository.WeatherRepository
 import ir.moeindeveloper.weatherfo.util.network.Resource
 
 class WeatherViewModel @ViewModelInject constructor(private val repository: WeatherRepository,
-                                                    private val settings: AppSettings,
+                                                    val settings: AppSettings,
                                                     private val cityProvider: CityListProvider): ViewModel() {
 
 
