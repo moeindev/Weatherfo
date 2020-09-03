@@ -1,6 +1,7 @@
 package ir.moeindeveloper.weatherfo.util.ui
 
 import ir.moeindeveloper.weatherfo.R
+import ir.moeindeveloper.weatherfo.data.model.City
 import ir.moeindeveloper.weatherfo.data.model.Daily
 import ir.moeindeveloper.weatherfo.util.date.DateEvents
 
@@ -23,4 +24,8 @@ fun DateEvents.getGradientBackground(): Int {
 
 interface OnDailyForecastListener {
     fun onSelected(daily: Daily)
+}
+
+interface CitySelectListener {
+    fun onCitySelected(city: City)
 }

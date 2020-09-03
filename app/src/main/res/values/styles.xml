@@ -83,4 +83,12 @@
         <item name="android:autoSizeMaxTextSize" tools:ignore="NewApi">@dimen/dailyItemMaxTextSize</item>
         <item name="android:textColor">@color/secondaryTextColor</item>
     </style>
+
+    <style name="AppTheme.cityItem.secondaryText" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/avenir</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">18sp</item>
+        <item name="android:autoSizeMaxTextSize" tools:ignore="NewApi">20sp</item>
+    </style>
 </resources>

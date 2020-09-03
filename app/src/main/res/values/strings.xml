@@ -16,4 +16,6 @@
     <string name="snack_other_days">You\'re visiting other day\'s status</string>
 
     <string name="show_today">Show today\'s weather</string>
+
+    <string name="search_city">Enter your city here</string>
 </resources>

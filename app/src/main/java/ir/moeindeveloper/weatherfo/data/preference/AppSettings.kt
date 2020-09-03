@@ -3,6 +3,7 @@ package ir.moeindeveloper.weatherfo.data.preference
 import android.content.SharedPreferences
 import ir.moeindeveloper.weatherfo.data.Constants
 import ir.moeindeveloper.weatherfo.util.preference.getDouble
+import ir.moeindeveloper.weatherfo.util.preference.putDouble
 import javax.inject.Inject
 
 class AppSettings @Inject constructor(private val preferences: SharedPreferences) {
@@ -18,10 +19,10 @@ class AppSettings @Inject constructor(private val preferences: SharedPreferences
         preferences.edit().putString(Constants.PreferenceKey.name,name).apply()
 
     private fun saveLatitude(lat: Double) =
-        preferences.edit().putFloat(Constants.PreferenceKey.lat,lat.toFloat()).apply()
+        preferences.edit().putDouble(Constants.PreferenceKey.lat,lat)
 
     private fun saveLongitude(lon: Double) =
-        preferences.edit().putFloat(Constants.PreferenceKey.lon,lon.toFloat()).apply()
+        preferences.edit().putDouble(Constants.PreferenceKey.lon,lon)
 
     private fun save() = preferences.edit().putBoolean(Constants.PreferenceKey.isSaved,true).apply()
 

@@ -5,13 +5,19 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
+import com.afollestad.materialdialogs.MaterialDialog
+import com.afollestad.materialdialogs.bottomsheets.BottomSheet
+import com.afollestad.materialdialogs.customview.customView
 import com.bumptech.glide.Glide
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import ir.moeindeveloper.weatherfo.R
+import ir.moeindeveloper.weatherfo.data.model.City
 import ir.moeindeveloper.weatherfo.data.model.Current
 import ir.moeindeveloper.weatherfo.data.model.Daily
 import ir.moeindeveloper.weatherfo.databinding.ActivityMainBinding
+import ir.moeindeveloper.weatherfo.databinding.DialogSelectCityBinding
+import ir.moeindeveloper.weatherfo.ui.adapter.CityAdapter
 import ir.moeindeveloper.weatherfo.ui.adapter.DailyAdapter
 import ir.moeindeveloper.weatherfo.ui.adapter.HourlyAdapter
 import ir.moeindeveloper.weatherfo.util.date.DateEvents
@@ -21,9 +27,10 @@ import ir.moeindeveloper.weatherfo.util.ui.*
 import ir.moeindeveloper.weatherfo.util.weather.getWeatherIcon
 import ir.moeindeveloper.weatherfo.util.weather.toStringTemp
 import ir.moeindeveloper.weatherfo.viewModel.WeatherViewModel
+import kotlinx.android.synthetic.main.dialog_select_city.*
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity(), OnDailyForecastListener {
+class MainActivity : AppCompatActivity(), OnDailyForecastListener,CitySelectListener {
 
     private val vm by viewModels<WeatherViewModel>()
 
@@ -33,6 +40,9 @@ class MainActivity : AppCompatActivity(), OnDailyForecastListener {
 
     private val dailyAdapter = DailyAdapter(this)
 
+    private lateinit var dialogBinding: DialogSelectCityBinding
+
+    private val cityAdapter = CityAdapter(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,6 +53,13 @@ class MainActivity : AppCompatActivity(), OnDailyForecastListener {
         binding.mainLayout.hourlyList.adapter = hourlyAdapter
         binding.mainLayout.dailyList.adapter = dailyAdapter
         //binding.mainLayout.dailyList.setHasFixedSize(true)
+        binding.mainLayout.changeLocation.setOnClickListener {
+            initCityDialog()
+        }
+
+        binding.noConnectionLayout.tryAgainButton.setOnClickListener {
+            vm.loadData()
+        }
         observeVM()
     }
 
@@ -69,6 +86,9 @@ class MainActivity : AppCompatActivity(), OnDailyForecastListener {
                     }
                 }
             }
+        })
+        vm.cities.observe(this, Observer {
+            cityAdapter.updateData(it.cities)
         })
     }
 
@@ -117,4 +137,25 @@ class MainActivity : AppCompatActivity(), OnDailyForecastListener {
         }
     }
 
+
+    private lateinit var dialog: MaterialDialog
+    private fun initCityDialog(){
+        dialogBinding = DialogSelectCityBinding.inflate(layoutInflater,null,false)
+        dialogBinding.dialogCityList.adapter = cityAdapter
+        dialog = MaterialDialog(this,BottomSheet()).show {
+            customView(view = dialogBinding.root)
+        }
+    }
+
+    override fun onCitySelected(city: City) {
+        dialog.dismiss()
+        vm.settings.saveCity(city.name,city.coord.lat,city.coord.lon)
+        vm.loadData()
+        binding.mainLayout.changeLocation.text = city.name
+    }
+
+    override fun onResume() {
+        super.onResume()
+        vm.loadData()
+    }
 }
