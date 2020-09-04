@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@android:color/transparent"
+    android:background="@drawable/back_evening"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     
@@ -43,13 +43,14 @@
     <Button
         app:layout_constraintTop_toBottomOf="@id/feels_temp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/hourly_list"
         app:layout_constraintHorizontal_bias="0"
         android:layout_margin="10dp"
         tools:text="@string/default_location_name"
         app:layout_constraintEnd_toStartOf="@id/main_temp_icon"
         style="@style/AppTheme.current.changeLocation"
         android:id="@+id/change_location"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"/>
 
     <androidx.recyclerview.widget.RecyclerView
