@@ -2,8 +2,9 @@ package ir.moeindeveloper.weatherfo.util.ui
 
 import android.view.View
 import ir.moeindeveloper.weatherfo.databinding.ActivityMainBinding
+import ir.moeindeveloper.weatherfo.databinding.FragmentHomeBinding
 
-fun ActivityMainBinding.enterLoadingState() {
+fun FragmentHomeBinding.enterLoadingState() {
     this.noConnectionLayout.root.visibility = View.GONE
     this.mainLayout.root.visibility = View.GONE
     this.loadingLayout.root.visibility = View.VISIBLE
@@ -12,7 +13,7 @@ fun ActivityMainBinding.enterLoadingState() {
 }
 
 
-fun ActivityMainBinding.enterErrorState() {
+fun FragmentHomeBinding.enterErrorState() {
     this.loadingLayout.root.visibility = View.GONE
     this.mainLayout.root.visibility = View.GONE
     this.noConnectionLayout.root.visibility = View.VISIBLE
@@ -20,7 +21,7 @@ fun ActivityMainBinding.enterErrorState() {
     this.noConnectionLayout.tryAgainButton.visibility = View.VISIBLE
 }
 
-fun ActivityMainBinding.enterSuccessState() {
+fun FragmentHomeBinding.enterSuccessState() {
     this.loadingLayout.root.visibility = View.GONE
     this.noConnectionLayout.root.visibility = View.GONE
     this.mainLayout.root.visibility = View.VISIBLE

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.HomeFragment">
+
+    <include
+        android:id="@+id/no_connection_layout"
+        android:visibility="visible"
+        layout="@layout/layout_no_connection"/>
+
+    <include
+        android:id="@+id/loading_layout"
+        android:visibility="visible"
+        layout="@layout/layout_loading"/>
+
+    <include
+        android:id="@+id/main_layout"
+        android:visibility="visible"
+        layout="@layout/layout_main"/>
+
+</FrameLayout>
