@@ -2,10 +2,12 @@ package ir.moeindeveloper.weatherfo.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.RecyclerView
 import ir.moeindeveloper.weatherfo.data.model.City
 import ir.moeindeveloper.weatherfo.databinding.ItemCityBinding
 import ir.moeindeveloper.weatherfo.util.ui.CitySelectListener
+import ir.moeindeveloper.weatherfo.util.ui.adapter.DiffCallback
 
 class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapter<CityAdapter.CityViewHolder>(){
 
@@ -18,24 +20,27 @@ class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapt
     }
 
     override fun onBindViewHolder(holder: CityViewHolder, position: Int) {
-        holder.bindItem(items[position],listener)
+        holder.bindItem(items.currentList[position])
     }
 
-    override fun getItemCount(): Int = items.size
+    override fun getItemCount(): Int = items.currentList.size
 
-    private var items: List<City> = listOf()
+    private var items: AsyncListDiffer<City> = AsyncListDiffer(this, DiffCallback<City>())
 
-    fun updateData(cities: List<City>) {
-        items = cities
-        notifyDataSetChanged()
-    }
+    fun updateData(cities: List<City>) = items.submitList(cities)
 
-    class CityViewHolder(private val binding: ItemCityBinding): RecyclerView.ViewHolder(binding.root) {
-        fun bindItem(city: City, listener: CitySelectListener){
-            binding.itemCityName.text = city.name
-            binding.root.setOnClickListener {
-                listener.onCitySelected(city)
+    inner class CityViewHolder(private val binding: ItemCityBinding): RecyclerView.ViewHolder(binding.root) {
+
+        init {
+            binding.apply {
+                root.setOnClickListener {
+                    listener.onCitySelected(items.currentList[adapterPosition])
+                }
             }
+        }
+
+        fun bindItem(city: City){
+            binding.itemCityName.text = city.name
         }
     }
 
