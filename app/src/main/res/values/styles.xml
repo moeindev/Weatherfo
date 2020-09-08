@@ -88,7 +88,23 @@
         <item name="fontFamily">@font/avenir</item>
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">18sp</item>
         <item name="android:autoSizeMaxTextSize" tools:ignore="NewApi">20sp</item>
+    </style>
+
+    <style name="AppTheme.cityItem.searchTextTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/search_box_color</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="android:enabled">true</item>
+        <item name="android:textColorHint">@color/primaryTextColor</item>
+        <item name="hintTextColor">@color/primaryTextColor</item>
+        <item name="hintTextAppearance">@style/AppTheme.cityItem.secondaryText</item>
+    </style>
+
+    <style name="AppTheme.cityItem.searchTextEditTextTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:textAppearance">@style/AppTheme.cityItem.secondaryText</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 </resources>

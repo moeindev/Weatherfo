@@ -10,5 +10,18 @@
         android:id="@+id/homeFragment"
         android:name="ir.moeindeveloper.weatherfo.ui.fragment.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_cityFragment"
+            app:destination="@id/cityFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit"
+            app:popEnterAnim="@anim/fragment_close_enter"
+            app:popExitAnim="@anim/fragment_close_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/cityFragment"
+        android:name="ir.moeindeveloper.weatherfo.ui.fragment.CityFragment"
+        android:label="fragment_city"
+        tools:layout="@layout/fragment_city" />
 </navigation>

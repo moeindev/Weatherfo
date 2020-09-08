@@ -2,14 +2,17 @@ package ir.moeindeveloper.weatherfo.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Filter
+import android.widget.Filterable
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.RecyclerView
 import ir.moeindeveloper.weatherfo.data.model.City
 import ir.moeindeveloper.weatherfo.databinding.ItemCityBinding
 import ir.moeindeveloper.weatherfo.util.ui.CitySelectListener
 import ir.moeindeveloper.weatherfo.util.ui.adapter.DiffCallback
+import java.util.*
 
-class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapter<CityAdapter.CityViewHolder>(){
+class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapter<CityAdapter.CityViewHolder>(), Filterable{
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CityViewHolder {
@@ -20,21 +23,26 @@ class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapt
     }
 
     override fun onBindViewHolder(holder: CityViewHolder, position: Int) {
-        holder.bindItem(items.currentList[position])
+        holder.bindItem(filteredItems.currentList[position])
     }
 
-    override fun getItemCount(): Int = items.currentList.size
+    override fun getItemCount(): Int = filteredItems.currentList.size
 
-    private var items: AsyncListDiffer<City> = AsyncListDiffer(this, DiffCallback<City>())
+    private var items: List<City> = listOf()
 
-    fun updateData(cities: List<City>) = items.submitList(cities)
+    private var filteredItems: AsyncListDiffer<City> = AsyncListDiffer(this,DiffCallback<City>())
+
+    fun updateData(cities: List<City>) {
+        items = cities
+        filteredItems.submitList(items)
+    }
 
     inner class CityViewHolder(private val binding: ItemCityBinding): RecyclerView.ViewHolder(binding.root) {
 
         init {
             binding.apply {
                 root.setOnClickListener {
-                    listener.onCitySelected(items.currentList[adapterPosition])
+                    listener.onCitySelected(filteredItems.currentList[adapterPosition])
                 }
             }
         }
@@ -44,4 +52,28 @@ class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapt
         }
     }
 
+    override fun getFilter(): Filter {
+        return object : Filter() {
+            override fun performFiltering(p0: CharSequence?): FilterResults {
+                val charString = p0.toString()
+
+                var filtered = items
+
+                if (charString.isEmpty()) {
+                    filtered = items
+                } else {
+                    filtered = items.filter { city -> city.name.toLowerCase(Locale.ROOT).contains(charString.toLowerCase(Locale.ROOT)) }
+                }
+
+                val results = FilterResults()
+                results.values = filtered
+
+                return results
+            }
+
+            override fun publishResults(p0: CharSequence?, p1: FilterResults?) {
+                if (p1?.values is List<*>) filteredItems.submitList(p1.values as List<City>)
+            }
+        }
+    }
 }

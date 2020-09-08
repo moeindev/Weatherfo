@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.activity.viewModels
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.bottomsheets.BottomSheet
 import com.afollestad.materialdialogs.customview.customView
@@ -33,7 +34,7 @@ import ir.moeindeveloper.weatherfo.viewModel.WeatherViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @AndroidEntryPoint
-class HomeFragment : Fragment(), OnDailyForecastListener, CitySelectListener {
+class HomeFragment : Fragment(), OnDailyForecastListener {
 
     private lateinit var binding: FragmentHomeBinding
 
@@ -43,27 +44,23 @@ class HomeFragment : Fragment(), OnDailyForecastListener, CitySelectListener {
 
     private val dailyAdapter = DailyAdapter(this)
 
-    private lateinit var dialogBinding: DialogSelectCityBinding
-
-    private val cityAdapter = CityAdapter(this)
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentHomeBinding.inflate(inflater,container,false)
-        binding.mainLayout.changeLocation.text = vm.settings.getName()
         binding.mainLayout.hourlyList.adapter = hourlyAdapter
         binding.mainLayout.dailyList.adapter = dailyAdapter
         //binding.mainLayout.dailyList.setHasFixedSize(true)
         binding.mainLayout.changeLocation.setOnClickListener {
-            initCityDialog()
+            val navigateToCity = HomeFragmentDirections.actionHomeFragmentToCityFragment()
+            findNavController().navigate(navigateToCity)
         }
 
         binding.noConnectionLayout.tryAgainButton.setOnClickListener {
             vm.loadData()
         }
+
         observeVM()
 
         return binding.root
@@ -91,9 +88,6 @@ class HomeFragment : Fragment(), OnDailyForecastListener, CitySelectListener {
                     }
                 }
             }
-        })
-        vm.cities.observe(viewLifecycleOwner, Observer {
-            cityAdapter.updateData(it.cities)
         })
     }
 
@@ -142,26 +136,10 @@ class HomeFragment : Fragment(), OnDailyForecastListener, CitySelectListener {
         }
     }
 
-
-    private lateinit var dialog: MaterialDialog
-    private fun initCityDialog(){
-        dialogBinding = DialogSelectCityBinding.inflate(layoutInflater,null,false)
-        dialogBinding.dialogCityList.adapter = cityAdapter
-        dialog = MaterialDialog(requireContext(), BottomSheet()).show {
-            customView(view = dialogBinding.root)
-        }
-    }
-
-    override fun onCitySelected(city: City) {
-        dialog.dismiss()
-        vm.settings.saveCity(city.name,city.coord.lat,city.coord.lon)
-        vm.loadData()
-        binding.mainLayout.changeLocation.text = city.name
-    }
-
     override fun onResume() {
         super.onResume()
         vm.loadData()
+        binding.mainLayout.changeLocation.text = vm.settings.getName()
     }
 
 }
