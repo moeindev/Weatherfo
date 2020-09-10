@@ -5,18 +5,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:windowTranslucentStatus">true</item>
-        <item name="md_font_title">@font/avenir_book</item>
-        <item name="md_font_body">@font/avenir_roman</item>
-        <item name="md_font_button">@font/avenir_medium</item>
+        <item name="md_font_title">@font/vazir_bold</item>
+        <item name="md_font_body">@font/vazir_italic</item>
+        <item name="md_font_button">@font/vazir_normal</item>
     </style>
 
     <style name="AppTheme.noConnection.tryAgain" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/primaryTextColor</item>
-        <item name="fontFamily">@font/avenir</item>
-        <item name="android:fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
+        <item name="android:fontFamily">@font/vazir</item>
         <item name="android:autoSizeMinTextSize" tools:targetApi="o">14sp</item>
         <item name="android:autoSizeMaxTextSize" tools:targetApi="o">18sp</item>
         <item name="strokeColor">@color/primaryTextColor</item>
@@ -24,13 +24,13 @@
     </style>
 
     <style name="AppTheme.current.changeLocation" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/primaryTextColor</item>
         <item name="icon">@drawable/ic_location</item>
-        <item name="android:autoSizeMinTextSize" tools:targetApi="o">12sp</item>
-        <item name="android:autoSizeMaxTextSize" tools:targetApi="o">16sp</item>
-        <item name="fontFamily">@font/avenir</item>
+        <item name="android:autoSizeMinTextSize" tools:targetApi="o">14sp</item>
+        <item name="android:autoSizeMaxTextSize" tools:targetApi="o">18sp</item>
         <item name="strokeColor">@color/primaryTextColor</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="strokeWidth">1dp</item>
         <item name="iconTint">@color/primaryTextColor</item>
     </style>
@@ -49,7 +49,7 @@
     </style>
 
     <style name="AppTheme.current.tempTitle" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:textSize">@dimen/mainTempTitleTextSize</item>
         <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">@dimen/mainTempTitleMinTextSize</item>
         <item name="android:autoSizeMaxTextSize" tools:ignore="NewApi">@dimen/mainTempTitleMaxTextSize</item>
@@ -57,7 +57,7 @@
     </style>
 
     <style name="AppTheme.current.feelsTempTitle" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:textSize">@dimen/mainFeelsTitleTextSize</item>
         <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">@dimen/mainFeelsTitleMinTextSize</item>
         <item name="android:autoSizeMaxTextSize" tools:ignore="NewApi">@dimen/mainFeelsTitleMaxTextSize</item>
@@ -66,7 +66,7 @@
 
 
     <style name="AppTheme.hourlyItem.tempTitle" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textSize">@dimen/hourlyItemTempTextSize</item>
         <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">@dimen/hourlyItemTempMinTextSize</item>
@@ -75,7 +75,7 @@
     </style>
 
     <style name="AppTheme.hourlyItem.timeTitle" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textSize">@dimen/hourlyItemTimeTextSize</item>
         <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">@dimen/hourlyItemTimeMinTextSize</item>
@@ -84,7 +84,7 @@
     </style>
 
     <style name="AppTheme.dailyItem.primaryText" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">@dimen/dailyItemTextSize</item>
         <item name="android:autoSizeMinTextSize" tools:ignore="NewApi">@dimen/dailyItemMinTextSize</item>
@@ -93,7 +93,7 @@
     </style>
 
     <style name="AppTheme.dailyItem.secondaryText" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">@dimen/dailyItemTextSize</item>
@@ -103,7 +103,7 @@
     </style>
 
     <style name="AppTheme.cityItem.secondaryText" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/avenir</item>
+        <item name="fontFamily">@font/vazir</item>
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@color/primaryTextColor</item>

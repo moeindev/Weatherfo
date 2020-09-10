@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="try_again">تلاش دوباره</string>
+    <string name="sample_temp">۲۲°</string>
+    <string name="sample_day">دوشنبه</string>
+    <string name="default_location_name">کرمانشاه</string>
+    <string name="snack_other_days">شما در حال مشاهده وضعیت روز های دیگر هستید</string>
+    <string name="show_today">نمایش وضعیت آب و هوای امروز</string>
+    <string name="search_city">اسم شهر خود را اینجا وارد کنید</string>
+    <string name="hello_blank_fragment">سلام فرگمنت پیشرفت</string>
+    <string name="change_lang_title">تغییر زبان</string>
+    <string name="change_lang_msg">لطفا زبان خود را انتخاب کنید:</string>
+    <string name="lang_en">انگلیسی</string>
+    <string name="lang_fa">فارسی</string>
+</resources>

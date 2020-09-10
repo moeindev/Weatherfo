@@ -2,6 +2,7 @@ package ir.moeindeveloper.weatherfo.data.model
 
 
 import com.google.gson.annotations.SerializedName
+import ir.moeindeveloper.weatherfo.util.ui.adapter.AdapterObject
 
 data class Hourly(
     @SerializedName("clouds")
@@ -9,7 +10,7 @@ data class Hourly(
     @SerializedName("dew_point")
     val dewPoint: Double,
     @SerializedName("dt")
-    val dt: Int,
+    override val dt: Int,
     @SerializedName("feels_like")
     val feelsLike: Double,
     @SerializedName("humidity")
@@ -28,4 +29,4 @@ data class Hourly(
     val windDeg: Int,
     @SerializedName("wind_speed")
     val windSpeed: Double
-)
+): AdapterObject<Int>

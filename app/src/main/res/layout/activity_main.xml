@@ -6,19 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ui.activity.MainActivity">
 
-    <include
-        android:id="@+id/no_connection_layout"
-        android:visibility="visible"
-        layout="@layout/layout_no_connection"/>
-
-    <include
-        android:id="@+id/loading_layout"
-        android:visibility="visible"
-        layout="@layout/layout_loading"/>
-
-    <include
-        android:id="@+id/main_layout"
-        android:visibility="visible"
-        layout="@layout/layout_main"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/main_navigator"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/main_nav_graph" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

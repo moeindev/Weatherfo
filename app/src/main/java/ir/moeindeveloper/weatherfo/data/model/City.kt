@@ -2,6 +2,7 @@ package ir.moeindeveloper.weatherfo.data.model
 
 
 import com.google.gson.annotations.SerializedName
+import ir.moeindeveloper.weatherfo.util.ui.adapter.AdapterObject
 
 data class City(
     @SerializedName("coord")
@@ -9,9 +10,11 @@ data class City(
     @SerializedName("country")
     val country: String,
     @SerializedName("id")
-    val id: Int,
+    override val dt: Int,
     @SerializedName("name")
     val name: String,
+    @SerializedName("faName")
+    val faName: String,
     @SerializedName("state")
     val state: String
-)
+): AdapterObject<Int>

@@ -16,6 +16,7 @@ object Constants {
 
     object DefaultLocation {
         const val name = "Kermanshah"
+        const val faName = "کرمانشاه"
         const val lat: Double = 34.3277
         const val lon: Double = 47.0778
     }
@@ -27,8 +28,12 @@ object Constants {
         const val prefs: String = "settings_pref"
         const val isSaved: String = "prefs_saved"
         const val name: String = "prefs_name"
+        const val faName: String = "prefs_fa_name"
         const val lat: String = "prefs_lat"
         const val lon: String = "prefs_lon"
+        object LanguageManager {
+            const val cmLangKey: String = "cm_language"
+            const val cmLangIsSelected: String = "cm_language_selected"
+        }
     }
-
 }
