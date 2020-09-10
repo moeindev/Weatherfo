@@ -30,7 +30,7 @@ class CityFragment : Fragment(), CitySelectListener {
 
     private val vm by viewModels<WeatherViewModel>()
 
-    private val cityAdapter = CityAdapter(this)
+    private lateinit var cityAdapter : CityAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -38,6 +38,7 @@ class CityFragment : Fragment(), CitySelectListener {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentCityBinding.inflate(inflater,container,false)
+        cityAdapter = CityAdapter(this,vm.settings.getLanguage())
         binding.mainLayout.dialogCityList.adapter = cityAdapter
 
         observeVM()
@@ -76,7 +77,7 @@ class CityFragment : Fragment(), CitySelectListener {
 
 
     override fun onCitySelected(city: City) {
-        vm.settings.saveCity(city.name,city.coord.lat,city.coord.lon)
+        vm.settings.saveCity(city.name,city.faName,city.coord.lat,city.coord.lon)
         findNavController().popBackStack()
     }
 

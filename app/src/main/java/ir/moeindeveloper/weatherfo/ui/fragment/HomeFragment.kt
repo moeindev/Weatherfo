@@ -61,7 +61,21 @@ class HomeFragment : Fragment(), OnDailyForecastListener {
             vm.loadData()
         }
 
+        /*
+        Hot fix on translation not working in rtl position:
+         */
+        val dimen = resources.getDimension(R.dimen.mainTempIconTranslationX)
+        if (vm.settings.getLanguage() == "fa") binding.mainLayout.mainTempIcon.translationX = -dimen
+        //end of hot fix
+
         observeVM()
+
+        binding.mainLayout.mainChangeLanguage.setOnClickListener {
+            binding.showChangeLanguageDialog(vm.settings.getLanguage()){language ->
+                vm.settings.saveLanguage(language)
+                requireActivity().recreate()
+            }
+        }
 
         return binding.root
     }
@@ -129,7 +143,7 @@ class HomeFragment : Fragment(), OnDailyForecastListener {
 
     private fun updateCurrentUi(current: Current){
         binding.mainLayout.mainTemp.text = current.temp.toStringTemp()
-        binding.mainLayout.feelsTemp.text = "${current.feelsLike.toStringTemp()}/${current.dewPoint.toStringTemp()}"
+        binding.mainLayout.feelsTemp.text = "${current.feelsLike.toStringTemp()} / ${current.dewPoint.toStringTemp()}"
         if (current.weather.isNotEmpty()) {
             //get image
             Glide.with(this).load(current.weather[0].icon.getWeatherIcon()).into(binding.mainLayout.mainTempIcon)
@@ -139,7 +153,7 @@ class HomeFragment : Fragment(), OnDailyForecastListener {
     override fun onResume() {
         super.onResume()
         vm.loadData()
-        binding.mainLayout.changeLocation.text = vm.settings.getName()
+        binding.mainLayout.changeLocation.text = vm.settings.getLocaleName()
     }
 
 }

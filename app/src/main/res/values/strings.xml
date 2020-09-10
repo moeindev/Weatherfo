@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Weatherfo</string>
+    <string name="app_name" translatable="false">Weatherfo</string>
 
     <string name="try_again">Try again</string>
 
     <string name="sample_temp">22°</string>
 
-    <string name="sample_time">16PM</string>
+    <string name="sample_time" translatable="false">16PM</string>
 
     <string name="sample_day">Monday</string>
 
@@ -19,4 +19,8 @@
 
     <string name="search_city">Enter your city here</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_lang_title">Change Language</string>
+    <string name="change_lang_msg">Please select your language:</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fa">Persian</string>
 </resources>

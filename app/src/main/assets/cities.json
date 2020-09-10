@@ -3,6 +3,7 @@
         {
             "id": 833,
             "name": "\u1e28e\u015f\u0101r-e Sef\u012bd",
+            "faName": "حسار سفید",
             "state": "",
             "country": "IR",
             "coord": {
@@ -13,6 +14,7 @@
         {
             "id": 3245,
             "name": "Taglag",
+            "faName": "تگلک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -23,6 +25,7 @@
         {
             "id": 3530,
             "name": "Qab\u0101ghl\u016b",
+            "faName": "قباغلو",
             "state": "",
             "country": "IR",
             "coord": {
@@ -33,6 +36,7 @@
         {
             "id": 7264,
             "name": "Kal\u0101teh-ye Dowlat",
+            "faName" : "کلاته دولت",
             "state": "",
             "country": "IR",
             "coord": {
@@ -43,6 +47,7 @@
         {
             "id": 8084,
             "name": "Behjat\u0101b\u0101d",
+            "faName": "بهجت آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -53,6 +58,7 @@
         {
             "id": 9874,
             "name": "\u0162\u0101lesh Ma\u1e29alleh",
+            "faName" : "طالش محله",
             "state": "",
             "country": "IR",
             "coord": {
@@ -63,6 +69,7 @@
         {
             "id": 11263,
             "name": "Shahr\u012b\u0101r Kandeh",
+            "faName" : "شهریار کنده",
             "state": "",
             "country": "IR",
             "coord": {
@@ -73,6 +80,7 @@
         {
             "id": 11754,
             "name": "B\u0101l\u0101 A\u1e29mad Kol\u0101",
+            "faName": "بالا احمدکلا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -83,6 +91,7 @@
         {
             "id": 14177,
             "name": "\u0100qd\u016bz",
+            "faName": "آقدوز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -93,6 +102,7 @@
         {
             "id": 14256,
             "name": "\u0100z\u0101dshahr",
+            "faName" : "آزادشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -103,6 +113,7 @@
         {
             "id": 18007,
             "name": "Gollar",
+            "faName": "گل لر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -113,6 +124,7 @@
         {
             "id": 18093,
             "name": "D\u012bg\u0101leh",
+            "faName": "دیگاله",
             "state": "",
             "country": "IR",
             "coord": {
@@ -123,6 +135,7 @@
         {
             "id": 18557,
             "name": "Qar\u0101lar-e M\u012brz\u0101 \u1e28oseynqol\u012b",
+            "faName": "قرالر میرزا حسینقلی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -133,6 +146,7 @@
         {
             "id": 23814,
             "name": "Kahr\u012bz",
+            "faName": "کهریز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -143,6 +157,7 @@
         {
             "id": 24851,
             "name": "N\u016br\u0101b\u0101d",
+            "faName": "نورآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -153,6 +168,7 @@
         {
             "id": 29033,
             "name": "Rokan Sar\u0101",
+            "faName": "رکن سرا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -163,6 +179,7 @@
         {
             "id": 30321,
             "name": "Z\u012brj\u0101n",
+            "faName": "زیرجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -173,6 +190,7 @@
         {
             "id": 32516,
             "name": "Badr\u0101b\u0101d-e `Oly\u0101",
+            "faName": "بدرآباد اولیا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -183,6 +201,7 @@
         {
             "id": 32723,
             "name": "\u012astg\u0101h-e R\u0101h \u0100han-e Garms\u0101r",
+            "faName" : "ایستگاه راه آهن گرمسار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -193,6 +212,7 @@
         {
             "id": 32767,
             "name": "Qarchak",
+            "faName" : "قرچک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -203,6 +223,7 @@
         {
             "id": 35056,
             "name": "Tabr\u012bz J\u0101n\u012b",
+            "faName": "تبریز جانی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -213,6 +234,7 @@
         {
             "id": 36741,
             "name": "And\u012bmeshk",
+            "faName": "اندیمشک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -223,6 +245,7 @@
         {
             "id": 37755,
             "name": "Rav\u012bnd\u016bzaq",
+            "faName": "رويندزق",
             "state": "",
             "country": "IR",
             "coord": {
@@ -233,6 +256,7 @@
         {
             "id": 39161,
             "name": "M\u0101m\u0101\u2019\u012b",
+            "faName" : "مامایی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -243,6 +267,7 @@
         {
             "id": 40847,
             "name": "Re\u1e95\u0101\u0101b\u0101d",
+            "faName": "رضاآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -253,6 +278,7 @@
         {
             "id": 41210,
             "name": "Khorramdarreh",
+            "faName": "خرم دره",
             "state": "",
             "country": "IR",
             "coord": {
@@ -263,6 +289,7 @@
         {
             "id": 41964,
             "name": "K\u016bchakl\u012b",
+            "faName" : "کوچکلی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -273,6 +300,7 @@
         {
             "id": 44992,
             "name": "Kosht\u0101rg\u0101h",
+            "faName" : "کشتارگاه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -283,6 +311,7 @@
         {
             "id": 45013,
             "name": "Jozf-e Sofl\u00e1",
+            "faName": "جزف سفلی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -293,6 +322,7 @@
         {
             "id": 66093,
             "name": "Yasuj",
+            "faName": "یاسوج",
             "state": "",
             "country": "IR",
             "coord": {
@@ -303,6 +333,7 @@
         {
             "id": 66108,
             "name": "Sh\u0101hr\u016bd",
+            "faName" : "شاهرود",
             "state": "",
             "country": "IR",
             "coord": {
@@ -313,6 +344,7 @@
         {
             "id": 69349,
             "name": "\u2018Abb\u0101s\u0101b\u0101d-e Q\u016bsheh",
+            "faName": "عباس آباد قوشه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -323,6 +355,7 @@
         {
             "id": 110791,
             "name": "Ost\u0101n-e Tehr\u0101n",
+            "faName": "استان تهران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -333,6 +366,7 @@
         {
             "id": 110831,
             "name": "\u0100z\u0101dshahr",
+            "faName": "آزادشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -343,6 +377,7 @@
         {
             "id": 111421,
             "name": "Zarand",
+            "faName": "زرند",
             "state": "",
             "country": "IR",
             "coord": {
@@ -353,6 +388,7 @@
         {
             "id": 111452,
             "name": "Ost\u0101n-e Zanj\u0101n",
+            "faName" : "استان زنجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -363,6 +399,7 @@
         {
             "id": 111453,
             "name": "Zanj\u0101n",
+            "faName": "زنجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -373,6 +410,7 @@
         {
             "id": 111821,
             "name": "Yazd",
+            "faName": "یزد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -381,18 +419,9 @@
             }
         },
         {
-            "id": 111822,
-            "name": "Yazd",
-            "state": "",
-            "country": "IR",
-            "coord": {
-                "lon": 54.3675,
-                "lat": 31.897221
-            }
-        },
-        {
             "id": 112214,
             "name": "Var\u0101m\u012bn",
+            "faName": "ورامین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -403,6 +432,7 @@
         {
             "id": 112311,
             "name": "V\u0101l\u0101njerd",
+            "faName": "والانجرد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -413,6 +443,7 @@
         {
             "id": 112646,
             "name": "Torbat-e \u1e28eydar\u012byeh",
+            "faName": "تربت حیدریه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -423,6 +454,7 @@
         {
             "id": 112656,
             "name": "Tonek\u0101bon",
+            "faName" : "تنكابن",
             "state": "",
             "country": "IR",
             "coord": {
@@ -433,6 +465,7 @@
         {
             "id": 112931,
             "name": "Tehran",
+            "faName": "تهران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -443,6 +476,7 @@
         {
             "id": 113343,
             "name": "Hashtpar",
+            "faName": "هشت پر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -453,6 +487,7 @@
         {
             "id": 113491,
             "name": "T\u0101kest\u0101n",
+            "faName": "تاکستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -463,6 +498,7 @@
         {
             "id": 113508,
             "name": "Tak\u0101b",
+            "faName": "تکاب",
             "state": "",
             "country": "IR",
             "coord": {
@@ -473,6 +509,7 @@
         {
             "id": 113632,
             "name": "Taft",
+            "faName": "تفت",
             "state": "",
             "country": "IR",
             "coord": {
@@ -483,6 +520,7 @@
         {
             "id": 113636,
             "name": "Tafresh",
+            "faName": "تفرش",
             "state": "",
             "country": "IR",
             "coord": {
@@ -493,6 +531,7 @@
         {
             "id": 113646,
             "name": "Tabriz",
+            "faName": "تبریز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -503,6 +542,7 @@
         {
             "id": 113659,
             "name": "Tabas",
+            "faName": "طبس",
             "state": "",
             "country": "IR",
             "coord": {
@@ -513,6 +553,7 @@
         {
             "id": 113832,
             "name": "\u015e\u016bf\u012b\u0101b\u0101d",
+            "faName": "صوفی آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -523,6 +564,7 @@
         {
             "id": 114049,
             "name": "Sonqor",
+            "faName": "سنقر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -533,6 +575,7 @@
         {
             "id": 114259,
             "name": "Sirjan",
+            "faName": "سیرجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -543,6 +586,7 @@
         {
             "id": 114584,
             "name": "Sh\u016bshtar",
+            "faName": "شوشتر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -553,6 +597,7 @@
         {
             "id": 114593,
             "name": "Sh\u016bsh",
+            "faName": "شوش",
             "state": "",
             "country": "IR",
             "coord": {
@@ -563,6 +608,7 @@
         {
             "id": 115019,
             "name": "Shiraz",
+            "faName": "شیراز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -573,6 +619,7 @@
         {
             "id": 115637,
             "name": "Shaj\u012br\u0101t",
+            "faName": "شجيرات",
             "state": "",
             "country": "IR",
             "coord": {
@@ -583,6 +630,7 @@
         {
             "id": 115770,
             "name": "Shahr-e Kord",
+            "faName": "شهرکرد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -593,6 +641,7 @@
         {
             "id": 115781,
             "name": "Shahr-e B\u0101bak",
+            "faName": "شهربابك",
             "state": "",
             "country": "IR",
             "coord": {
@@ -603,6 +652,7 @@
         {
             "id": 116102,
             "name": "Sh\u0101deg\u0101n",
+            "faName": "شادگان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -613,6 +663,7 @@
         {
             "id": 116401,
             "name": "Semnan Province",
+            "faName": "استان سمنان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -623,6 +674,7 @@
         {
             "id": 116402,
             "name": "Semnan",
+            "faName": "سمنان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -633,6 +685,7 @@
         {
             "id": 116406,
             "name": "Sem\u012brom",
+            "faName": "سميرم\u200E",
             "state": "",
             "country": "IR",
             "coord": {
@@ -643,6 +696,7 @@
         {
             "id": 116667,
             "name": "S\u0101veh",
+            "faName": "ساوه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -653,6 +707,7 @@
         {
             "id": 116996,
             "name": "Sari",
+            "faName": "ساری",
             "state": "",
             "country": "IR",
             "coord": {
@@ -663,6 +718,7 @@
         {
             "id": 117067,
             "name": "S\u0101r\u012bms\u0101ql\u016b",
+            "faName": "سارمساقلو",
             "state": "",
             "country": "IR",
             "coord": {
@@ -673,6 +729,7 @@
         {
             "id": 117392,
             "name": "Saqqez",
+            "faName": "سقز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -683,6 +740,7 @@
         {
             "id": 117460,
             "name": "Sang Kan\u012b",
+            "faName": "سَنگ كَنو",
             "state": "",
             "country": "IR",
             "coord": {
@@ -693,6 +751,7 @@
         {
             "id": 117574,
             "name": "Sanandaj",
+            "faName": "سنندج",
             "state": "",
             "country": "IR",
             "coord": {
@@ -703,6 +762,7 @@
         {
             "id": 117656,
             "name": "Salm\u0101s",
+            "faName": "سلماس\u200E",
             "state": "",
             "country": "IR",
             "coord": {
@@ -713,6 +773,7 @@
         {
             "id": 117793,
             "name": "Sh\u0101h\u012bn Dezh",
+            "faName": "شاهین دژ",
             "state": "",
             "country": "IR",
             "coord": {
@@ -723,6 +784,7 @@
         {
             "id": 118063,
             "name": "Sabzevar",
+            "faName": "سبزوار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -733,6 +795,7 @@
         {
             "id": 118191,
             "name": "R\u016bdsar",
+            "faName": "رودسار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -743,6 +806,7 @@
         {
             "id": 118367,
             "name": "Rob\u0101\u0163 Kar\u012bm",
+            "faName": "رباط كريم\u200E",
             "state": "",
             "country": "IR",
             "coord": {
@@ -753,6 +817,7 @@
         {
             "id": 118704,
             "name": "R\u0101var",
+            "faName": "راور",
             "state": "",
             "country": "IR",
             "coord": {
@@ -763,6 +828,7 @@
         {
             "id": 118743,
             "name": "Rasht",
+            "faName": "رشت",
             "state": "",
             "country": "IR",
             "coord": {
@@ -773,6 +839,7 @@
         {
             "id": 118805,
             "name": "R\u0101msh\u012br",
+            "faName": "رامشیر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -783,6 +850,7 @@
         {
             "id": 118826,
             "name": "R\u0101mhormoz",
+            "faName": "رامهرمز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -793,6 +861,7 @@
         {
             "id": 118848,
             "name": "Ramak",
+            "faName": "رامک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -803,6 +872,7 @@
         {
             "id": 118994,
             "name": "Rafsanj\u0101n",
+            "faName": "رفسنجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -813,6 +883,7 @@
         {
             "id": 119115,
             "name": "Q\u016bch\u0101n",
+            "faName": "قوچان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -823,6 +894,7 @@
         {
             "id": 119161,
             "name": "Qorveh",
+            "faName": "قروه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -833,6 +905,7 @@
         {
             "id": 119208,
             "name": "Qom",
+            "faName": "قم",
             "state": "",
             "country": "IR",
             "coord": {
@@ -843,6 +916,7 @@
         {
             "id": 119374,
             "name": "Qeshm",
+            "faName": "قشم",
             "state": "",
             "country": "IR",
             "coord": {
@@ -853,6 +927,7 @@
         {
             "id": 119505,
             "name": "Qazvin",
+            "faName": "قزوین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -863,6 +938,7 @@
         {
             "id": 119730,
             "name": "Qarah \u1e94\u012b\u0101\u2019 od D\u012bn",
+            "faName": "قره ضیاالدین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -873,6 +949,7 @@
         {
             "id": 120219,
             "name": "Qal\u2018eh-ye Mo\u1e29ammad \u2018Al\u012b Kh\u0101n",
+            "faName": "قلعه محمدعليخان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -883,6 +960,7 @@
         {
             "id": 120678,
             "name": "Farrokh Shahr",
+            "faName": "فرخ شهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -893,6 +971,7 @@
         {
             "id": 120694,
             "name": "Q\u0101\u2019en",
+            "faName": "قائن",
             "state": "",
             "country": "IR",
             "coord": {
@@ -903,6 +982,7 @@
         {
             "id": 120931,
             "name": "Sarpol-e Z\u0304ah\u0101b",
+            "faName": "سرپل ذهاب",
             "state": "",
             "country": "IR",
             "coord": {
@@ -913,6 +993,7 @@
         {
             "id": 120972,
             "name": "P\u012bshv\u0101",
+            "faName": "پیشوا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -923,6 +1004,7 @@
         {
             "id": 121110,
             "name": "Piranshahr",
+            "faName": "پیرانشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -933,6 +1015,7 @@
         {
             "id": 121240,
             "name": "P\u0101veh",
+            "faName": "پاوه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -943,6 +1026,7 @@
         {
             "id": 121380,
             "name": "P\u0101rs\u0101b\u0101d",
+            "faName": "پارس آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -953,6 +1037,7 @@
         {
             "id": 121795,
             "name": "Oshnav\u012byeh",
+            "faName": "اشنويه\u200E",
             "state": "",
             "country": "IR",
             "coord": {
@@ -963,6 +1048,7 @@
         {
             "id": 121801,
             "name": "Or\u016bm\u012byeh",
+            "faName": "ارومیه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -973,6 +1059,7 @@
         {
             "id": 121859,
             "name": "Om\u012bd\u012byeh-ye Sofl\u00e1",
+            "faName": "امیدیه سفلی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -983,6 +1070,7 @@
         {
             "id": 121861,
             "name": "Om\u012bd\u012byeh",
+            "faName": "امیدیه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -993,6 +1081,7 @@
         {
             "id": 121925,
             "name": "N\u016br\u0101b\u0101d",
+            "faName": "نورآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1003,6 +1092,7 @@
         {
             "id": 121959,
             "name": "Nowshahr",
+            "faName": "نوشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1013,6 +1103,7 @@
         {
             "id": 122002,
             "name": "Nowjeh Deh-e Sheykhlar",
+            "faName": "نوجه ده شیخلر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1023,6 +1114,7 @@
         {
             "id": 122285,
             "name": "Neysh\u0101b\u016br",
+            "faName": "نیشابور",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1033,6 +1125,7 @@
         {
             "id": 122289,
             "name": "Neyr\u012bz",
+            "faName": "نی‌ریز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1043,6 +1136,7 @@
         {
             "id": 122397,
             "name": "Nek\u0101",
+            "faName": "نکا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1053,6 +1147,7 @@
         {
             "id": 122438,
             "name": "Naz\u0327ar\u0101b\u0101d",
+            "faName": "نظرآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1063,6 +1158,7 @@
         {
             "id": 122698,
             "name": "Naqadeh",
+            "faName": "نقده",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1073,6 +1169,7 @@
         {
             "id": 122721,
             "name": "Nam\u012bn",
+            "faName": "نمین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1083,6 +1180,7 @@
         {
             "id": 122915,
             "name": "Nah\u0101vand",
+            "faName": "نهاوند",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1093,6 +1191,7 @@
         {
             "id": 123256,
             "name": "\u1e28ow\u1e95-e Sorkh",
+            "faName": "حوض سرخ",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1103,6 +1202,7 @@
         {
             "id": 123600,
             "name": "Mo\u1e29ammad\u0101b\u0101d",
+            "faName": "محمدآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1113,6 +1213,7 @@
         {
             "id": 123941,
             "name": "M\u012bn\u0101b",
+            "faName": "میناب",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1123,6 +1224,7 @@
         {
             "id": 124085,
             "name": "M\u012b\u0101ndo\u0101b",
+            "faName": "میاندواب",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1133,6 +1235,7 @@
         {
             "id": 124193,
             "name": "Meybod",
+            "faName": "میبد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1143,6 +1246,7 @@
         {
             "id": 124274,
             "name": "Mahr\u012bz",
+            "faName": "مهریز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1153,6 +1257,7 @@
         {
             "id": 124291,
             "name": "Mehr\u0101n",
+            "faName": "مهران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1163,6 +1268,7 @@
         {
             "id": 124544,
             "name": "Ost\u0101n-e M\u0101zandar\u0101n",
+            "faName": "استان مازندران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1173,6 +1279,7 @@
         {
             "id": 124620,
             "name": "Masjed Soleym\u0101n",
+            "faName": "مسجد سلیمان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1183,6 +1290,7 @@
         {
             "id": 124647,
             "name": "Bards\u012br",
+            "faName": "بردسیر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1193,6 +1301,7 @@
         {
             "id": 124665,
             "name": "Mashhad",
+            "faName": "مشهد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1203,6 +1312,7 @@
         {
             "id": 124763,
             "name": "Ost\u0101n-e Markaz\u012b",
+            "faName": "استان مرکزی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1213,6 +1323,7 @@
         {
             "id": 124862,
             "name": "Marand",
+            "faName": "مرند",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1223,6 +1334,7 @@
         {
             "id": 125185,
             "name": "Mal\u0101yer",
+            "faName": "ملایر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1233,6 +1345,7 @@
         {
             "id": 125188,
             "name": "Mal\u0101rd",
+            "faName": "ملارد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1243,6 +1356,7 @@
         {
             "id": 125315,
             "name": "Ma\u1e29m\u016bd\u0101b\u0101d-e Sofl\u00e1",
+            "faName": "محمود آباد سفلی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1253,6 +1367,7 @@
         {
             "id": 125446,
             "name": "Mah\u0101b\u0101d",
+            "faName": "مهاباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1263,6 +1378,7 @@
         {
             "id": 125605,
             "name": "Ost\u0101n-e Lorest\u0101n",
+            "faName": "استان لرستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1273,6 +1389,7 @@
         {
             "id": 125794,
             "name": "L\u0101v\u0101n",
+            "faName": "لاوان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1283,6 +1400,7 @@
         {
             "id": 125897,
             "name": "Langar\u016bd",
+            "faName": "لنگرود",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1293,6 +1411,7 @@
         {
             "id": 126409,
             "name": "K\u016bhdasht",
+            "faName": "کوهدشت",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1303,6 +1422,7 @@
         {
             "id": 126584,
             "name": "Ost\u0101n-e Kordest\u0101n",
+            "faName": "استان کردستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1313,6 +1433,7 @@
         {
             "id": 126878,
             "name": "Ost\u0101n-e Kohg\u012bl\u016byeh va Bowyer A\u1e29mad",
+            "faName": "استان کهگیلویه و بویراحمد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1323,6 +1444,7 @@
         {
             "id": 126914,
             "name": "K\u012bsh",
+            "faName": "کیش",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1333,6 +1455,7 @@
         {
             "id": 126972,
             "name": "Khowy",
+            "faName": "خوی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1343,6 +1466,7 @@
         {
             "id": 127033,
             "name": "Khv\u0101ns\u0101r",
+            "faName": "خوانسار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1353,6 +1477,7 @@
         {
             "id": 127082,
             "name": "Khuzestan",
+            "faName": "خوزستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1363,6 +1488,7 @@
         {
             "id": 127319,
             "name": "Khorramshahr",
+            "faName": "خرمشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1373,6 +1499,7 @@
         {
             "id": 127349,
             "name": "Khorramabad",
+            "faName": "خرم‌آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1383,6 +1510,7 @@
         {
             "id": 127403,
             "name": "Khomeyn",
+            "faName": "خمین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1393,6 +1521,7 @@
         {
             "id": 127878,
             "name": "Khani Yek",
+            "faName": "خانی یک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1403,6 +1532,7 @@
         {
             "id": 127989,
             "name": "Kh\u0101meneh",
+            "faName": "خامنه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1413,6 +1543,7 @@
         {
             "id": 128008,
             "name": "Khalkh\u0101l",
+            "faName": "خلخال",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1423,6 +1554,7 @@
         {
             "id": 128137,
             "name": "Ma\u1e29aleh-ye Kh\u0101f\u012b",
+            "faName": "محله خوافی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1433,6 +1565,7 @@
         {
             "id": 128222,
             "name": "Ost\u0101n-e Kerm\u0101nsh\u0101h",
+            "faName": "استان کرمانشاه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1443,6 +1576,7 @@
         {
             "id": 128226,
             "name": "Kermanshah",
+            "faName": "کرمانشاه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1453,6 +1587,7 @@
         {
             "id": 128231,
             "name": "Kerman",
+            "faName": "کرمان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1463,6 +1598,7 @@
         {
             "id": 128234,
             "name": "Kerman",
+            "faName": "کرمان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1473,6 +1609,7 @@
         {
             "id": 128321,
             "name": "K\u0101zer\u016bn",
+            "faName": "کازرون",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1483,6 +1620,7 @@
         {
             "id": 128447,
             "name": "K\u0101shmar",
+            "faName": "کاشمر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1493,6 +1631,7 @@
         {
             "id": 128477,
             "name": "Kashan",
+            "faName": "کاشان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1503,6 +1642,7 @@
         {
             "id": 128747,
             "name": "Karaj",
+            "faName": "کرج",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1513,6 +1653,7 @@
         {
             "id": 128831,
             "name": "Kang\u0101var",
+            "faName": "کنگاور",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1523,6 +1664,7 @@
         {
             "id": 128905,
             "name": "K\u0101my\u0101r\u0101n",
+            "faName": "کامیاران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1533,6 +1675,7 @@
         {
             "id": 129364,
             "name": "Kal\u0101teh-ye Karbal\u0101\u2019\u012b \u1e28\u0101jj\u012b",
+            "faName": "کلاته کربلای حاجی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1543,6 +1686,7 @@
         {
             "id": 129406,
             "name": "Kal\u0101teh-ye B\u0101l\u012b",
+            "faName": "کلاته بالی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1553,6 +1697,7 @@
         {
             "id": 129512,
             "name": "Kal\u0101leh",
+            "faName": "کلاله",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1563,6 +1708,7 @@
         {
             "id": 129933,
             "name": "J\u016byb\u0101r",
+            "faName": "جویبار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1573,6 +1719,7 @@
         {
             "id": 129945,
             "name": "J\u016braq\u0101n",
+            "faName": "جورقان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1583,6 +1730,7 @@
         {
             "id": 130216,
             "name": "Kh\u0101rk",
+            "faName": "خارک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1593,6 +1741,7 @@
         {
             "id": 130245,
             "name": "Jav\u0101nr\u016bd",
+            "faName": "جوانرود",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1603,6 +1752,7 @@
         {
             "id": 130261,
             "name": "Jav\u0101d\u012byeh",
+            "faName": "جوادیه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1613,6 +1763,7 @@
         {
             "id": 130758,
             "name": "Islamic Republic of Iran",
+            "faName": "جمهوری اسلامی ایران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1623,6 +1774,7 @@
         {
             "id": 130801,
             "name": "Ilam Province",
+            "faName": "استان ایلام",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1633,6 +1785,7 @@
         {
             "id": 130802,
             "name": "\u012al\u0101m",
+            "faName": "ایلام",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1643,6 +1796,7 @@
         {
             "id": 131222,
             "name": "Hormozgan",
+            "faName": "هرمزگان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1653,6 +1807,7 @@
         {
             "id": 131962,
             "name": "Hars\u012bn",
+            "faName": "هرسین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1663,6 +1818,7 @@
         {
             "id": 131965,
             "name": "H\u0101rom",
+            "faName": "هارم",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1673,6 +1829,7 @@
         {
             "id": 132142,
             "name": "Ost\u0101n-e Hamad\u0101n",
+            "faName": "استان همدان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1683,6 +1840,7 @@
         {
             "id": 132144,
             "name": "Hamad\u0101n",
+            "faName": "همدان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1693,6 +1851,7 @@
         {
             "id": 132548,
             "name": "G\u016bsheh Sh\u0101hz\u0101deh Q\u0101sem",
+            "faName": "گوشه شاهزاده قاسم",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1703,6 +1862,7 @@
         {
             "id": 132892,
             "name": "Gorg\u0101n",
+            "faName": "گرگان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1713,6 +1873,7 @@
         {
             "id": 132938,
             "name": "Gonbad-e K\u0101v\u016bs",
+            "faName": "گنبد کاووس",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1723,6 +1884,7 @@
         {
             "id": 132961,
             "name": "Gon\u0101b\u0101d",
+            "faName": "گناباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1733,6 +1895,7 @@
         {
             "id": 133037,
             "name": "Golp\u0101yeg\u0101n",
+            "faName": "گلپایگان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1743,6 +1906,7 @@
         {
             "id": 133349,
             "name": "Ost\u0101n-e G\u012bl\u0101n",
+            "faName": "استان گیلان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1753,6 +1917,7 @@
         {
             "id": 133533,
             "name": "Ger\u012bzeh",
+            "faName": "گریزه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1763,6 +1928,7 @@
         {
             "id": 133595,
             "name": "Ger\u0101sh",
+            "faName": "گراش",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1773,6 +1939,7 @@
         {
             "id": 133964,
             "name": "Garms\u0101r",
+            "faName": "گرمسار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1783,6 +1950,7 @@
         {
             "id": 134217,
             "name": "Bandar-e Gen\u0101veh",
+            "faName": "بندرگناوه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1793,6 +1961,7 @@
         {
             "id": 134460,
             "name": "F\u012bsher\u0101b\u0101d",
+            "faName": "فیشرآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1803,6 +1972,7 @@
         {
             "id": 134518,
             "name": "F\u012br\u016bz\u0101b\u0101d",
+            "faName": "فیروزآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1813,6 +1983,7 @@
         {
             "id": 134601,
             "name": "Fareyd\u016bnshahr",
+            "faName": "فریدون شهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1823,6 +1994,7 @@
         {
             "id": 134602,
             "name": "Fereyd\u016bnken\u0101r",
+            "faName": "فریدونکنار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1833,6 +2005,7 @@
         {
             "id": 134721,
             "name": "Fas\u0101",
+            "faName": "فسا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1843,6 +2016,7 @@
         {
             "id": 134762,
             "name": "F\u0101rs\u0101n",
+            "faName": "فارسان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1853,6 +2027,7 @@
         {
             "id": 134766,
             "name": "Fars",
+            "faName": "فارس",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1863,6 +2038,7 @@
         {
             "id": 134905,
             "name": "pamas",
+            "faName": "فاماست",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1873,6 +2049,7 @@
         {
             "id": 135298,
             "name": "Esfar\u0101yen",
+            "faName": "اسفراین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1883,6 +2060,7 @@
         {
             "id": 135423,
             "name": "Shahrud",
+            "faName": "شاهرود",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1893,6 +2071,7 @@
         {
             "id": 136014,
             "name": "Dogonbadan",
+            "faName": "گچساران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1903,6 +2082,7 @@
         {
             "id": 136256,
             "name": "Dezful",
+            "faName": "دزفول",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1913,6 +2093,7 @@
         {
             "id": 136399,
             "name": "Del\u012bj\u0101n",
+            "faName": "دلیجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1923,6 +2104,7 @@
         {
             "id": 136702,
             "name": "Dehlor\u0101n",
+            "faName": "دهران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1933,6 +2115,7 @@
         {
             "id": 136987,
             "name": "Dehdasht",
+            "faName": "دهدشت",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1943,6 +2126,7 @@
         {
             "id": 137088,
             "name": "Deh",
+            "faName": "ده",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1953,6 +2137,7 @@
         {
             "id": 137268,
             "name": "S\u016bsangerd",
+            "faName": "سوسنگرد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1963,6 +2148,7 @@
         {
             "id": 137956,
             "name": "D\u0101r\u0101b",
+            "faName": "داراب",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1973,6 +2159,7 @@
         {
             "id": 138025,
             "name": "D\u0101mgh\u0101n",
+            "faName": "دامغان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1983,6 +2170,7 @@
         {
             "id": 138042,
             "name": "Dam\u0101vand",
+            "faName": "دماوند",
             "state": "",
             "country": "IR",
             "coord": {
@@ -1993,6 +2181,7 @@
         {
             "id": 138327,
             "name": "Jowk\u0101n",
+            "faName": "جوکان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2003,6 +2192,7 @@
         {
             "id": 138568,
             "name": "Cheshmeh Kab\u016bd",
+            "faName": "چشمه کبود",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2013,6 +2203,7 @@
         {
             "id": 138742,
             "name": "Chen\u0101r\u0101n",
+            "faName": "چناران",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2023,6 +2214,7 @@
         {
             "id": 139223,
             "name": "Ch\u0101l\u016bs",
+            "faName": "چالوس",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2033,6 +2225,7 @@
         {
             "id": 139677,
             "name": "Ost\u0101n-e Chah\u0101r Ma\u1e29\u0101l va Bakht\u012b\u0101r\u012b",
+            "faName": "استان چهارمحال و بختیاری",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2043,6 +2236,7 @@
         {
             "id": 139816,
             "name": "Bushehr",
+            "faName": "بوشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2053,6 +2247,7 @@
         {
             "id": 139817,
             "name": "Bushehr",
+            "faName": "بوشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2063,6 +2258,7 @@
         {
             "id": 139889,
             "name": "B\u016bk\u0101n",
+            "faName": "بوکان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2073,6 +2269,7 @@
         {
             "id": 140044,
             "name": "Bor\u016bjerd",
+            "faName": "بروجرد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2083,6 +2280,7 @@
         {
             "id": 140046,
             "name": "Bor\u016bjen",
+            "faName": "بروجن",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2093,6 +2291,7 @@
         {
             "id": 140082,
             "name": "Borjak",
+            "faName": "برجک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2103,6 +2302,7 @@
         {
             "id": 140097,
             "name": "Bor\u0101zj\u0101n",
+            "faName": "برزجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2113,6 +2313,7 @@
         {
             "id": 140380,
             "name": "Bojn\u016brd",
+            "faName": "بجنورد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2123,6 +2324,7 @@
         {
             "id": 140463,
             "name": "B\u012brjand",
+            "faName": "بیرجند",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2133,6 +2335,7 @@
         {
             "id": 140521,
             "name": "B\u012bj\u0101r",
+            "faName": "بیجار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2143,6 +2346,7 @@
         {
             "id": 140851,
             "name": "Bar\u0101k",
+            "faName": "براک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2153,6 +2357,7 @@
         {
             "id": 140889,
             "name": "Bon\u0101b",
+            "faName": "بناب",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2163,6 +2368,7 @@
         {
             "id": 140918,
             "name": "Behshahr",
+            "faName": "بوشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2173,6 +2379,7 @@
         {
             "id": 140951,
             "name": "Behbah\u0101n",
+            "faName": "بهبهان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2183,6 +2390,7 @@
         {
             "id": 141584,
             "name": "B\u0101neh",
+            "faName": "بانه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2193,6 +2401,7 @@
         {
             "id": 141656,
             "name": "Shen\u0101s",
+            "faName": "بندر شناس",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2203,6 +2412,7 @@
         {
             "id": 141665,
             "name": "Bandar-e Lengeh",
+            "faName": "بندر لنگه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2213,6 +2423,7 @@
         {
             "id": 141668,
             "name": "Bandar Em\u0101m Khomeyn\u012b",
+            "faName": "بندر امام خمینی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2223,6 +2434,7 @@
         {
             "id": 141679,
             "name": "Bandar-e Anzal\u012b",
+            "faName": "بندر انزلی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2233,6 +2445,7 @@
         {
             "id": 141681,
             "name": "Bandar Abbas",
+            "faName": "بندرعباس",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2243,6 +2456,7 @@
         {
             "id": 141736,
             "name": "Bam",
+            "faName": "بم",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2253,6 +2467,7 @@
         {
             "id": 142000,
             "name": "Bah\u0101r",
+            "faName": "بهار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2263,6 +2478,7 @@
         {
             "id": 142255,
             "name": "B\u0101fq",
+            "faName": "بافق",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2273,6 +2489,7 @@
         {
             "id": 142358,
             "name": "B\u0101bolsar",
+            "faName": "بابلسر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2283,6 +2500,7 @@
         {
             "id": 142363,
             "name": "B\u0101bol",
+            "faName": "بابل",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2293,6 +2511,7 @@
         {
             "id": 142496,
             "name": "Azn\u0101",
+            "faName": "ازنا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2303,6 +2522,7 @@
         {
             "id": 142549,
             "name": "East Azerbaijan",
+            "faName": "آذربایجان شرقی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2313,6 +2533,7 @@
         {
             "id": 142550,
             "name": "West Azerbaijan Province",
+            "faName": "آذربایجان غربی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2323,6 +2544,7 @@
         {
             "id": 142554,
             "name": "Hashtr\u016bd",
+            "faName": "هشترود",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2333,6 +2555,7 @@
         {
             "id": 142676,
             "name": "\u0100st\u0101r\u0101",
+            "faName": "آستارا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2343,6 +2566,7 @@
         {
             "id": 142679,
             "name": "\u0100st\u0101neh-ye Ashraf\u012byeh",
+            "faName": "آستانه اشرفیه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2353,6 +2577,7 @@
         {
             "id": 142872,
             "name": "Asad\u0101b\u0101d",
+            "faName": "اسد آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2363,6 +2588,7 @@
         {
             "id": 143052,
             "name": "Ardest\u0101n",
+            "faName": "اردستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2373,6 +2599,7 @@
         {
             "id": 143073,
             "name": "Ardak\u0101n",
+            "faName": "اردکان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2383,6 +2610,7 @@
         {
             "id": 143083,
             "name": "Ardab\u012bl",
+            "faName": "اردبیل",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2393,6 +2621,7 @@
         {
             "id": 143127,
             "name": "Ar\u0101k",
+            "faName": "اراک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2403,6 +2632,7 @@
         {
             "id": 143534,
             "name": "\u0100mol",
+            "faName": "أمل",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2413,6 +2643,7 @@
         {
             "id": 143748,
             "name": "Alvand",
+            "faName": "الوند",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2423,6 +2654,7 @@
         {
             "id": 143860,
             "name": "Shahr\u012b\u0101r",
+            "faName": "شهریار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2433,6 +2665,7 @@
         {
             "id": 143921,
             "name": "Al\u012bg\u016bdarz",
+            "faName": "الیگودرز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2443,6 +2676,7 @@
         {
             "id": 144269,
             "name": "Aleshtar",
+            "faName": "الشتر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2453,6 +2687,7 @@
         {
             "id": 144410,
             "name": "Akbar\u0101b\u0101d",
+            "faName": "اکبرآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2463,6 +2698,7 @@
         {
             "id": 144443,
             "name": "\u2018Ajab Sh\u012br",
+            "faName": "عجب شیر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2473,6 +2709,7 @@
         {
             "id": 144448,
             "name": "Ahvaz",
+            "faName": "اهواز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2483,6 +2720,7 @@
         {
             "id": 144449,
             "name": "Ahv\u0101z",
+            "faName": "اهواز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2493,6 +2731,7 @@
         {
             "id": 144569,
             "name": "A\u1e29mad\u0101b\u0101d",
+            "faName": "احمد آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2503,6 +2742,7 @@
         {
             "id": 144616,
             "name": "Ahar",
+            "faName": "اهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2513,6 +2753,7 @@
         {
             "id": 144696,
             "name": "Aghajari",
+            "faName": "آغاجاری",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2523,6 +2764,7 @@
         {
             "id": 144794,
             "name": "\u0100byek",
+            "faName": "آبیک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2531,18 +2773,9 @@
             }
         },
         {
-            "id": 144795,
-            "name": "\u0100byek",
-            "state": "",
-            "country": "IR",
-            "coord": {
-                "lon": 50.531021,
-                "lat": 36.039928
-            }
-        },
-        {
             "id": 145034,
             "name": "Abhar",
+            "faName": "ابهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2553,6 +2786,7 @@
         {
             "id": 145233,
             "name": "\u0100bd\u0101n\u0101n",
+            "faName": "آبدانان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2563,6 +2797,7 @@
         {
             "id": 145449,
             "name": "\u0100b\u0101deh",
+            "faName": "آباده",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2573,6 +2808,7 @@
         {
             "id": 145459,
             "name": "Abadan",
+            "faName": "آبادان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2583,6 +2819,7 @@
         {
             "id": 390054,
             "name": "K\u016bh Sef\u012bd",
+            "faName": "کوه سفید",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2593,6 +2830,7 @@
         {
             "id": 390237,
             "name": "Ja\u2018far\u0101b\u0101d-e Now",
+            "faName": "جعفر آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2603,6 +2841,7 @@
         {
             "id": 400747,
             "name": "Ab\u016b M\u016bs\u00e1",
+            "faName": "ابو موسی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2613,6 +2852,7 @@
         {
             "id": 403220,
             "name": "Khav\u0101\u015f K\u016bh",
+            "faName": "خواص کوه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2623,6 +2863,7 @@
         {
             "id": 403714,
             "name": "Khorram\u0101b\u0101d",
+            "faName": "خرم آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2633,6 +2874,7 @@
         {
             "id": 406993,
             "name": "Eqb\u0101l\u012byeh",
+            "faName": "اقبالیه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2643,6 +2885,7 @@
         {
             "id": 413931,
             "name": "Ost\u0101n-e Ardab\u012bl",
+            "faName": "اردبیل",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2653,6 +2896,7 @@
         {
             "id": 417560,
             "name": "Sh\u0101h Karam",
+            "faName": "شاه کرم",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2663,6 +2907,7 @@
         {
             "id": 417594,
             "name": "Shahreza",
+            "faName": "شهرضا",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2673,6 +2918,7 @@
         {
             "id": 418521,
             "name": "Rehn\u0101n",
+            "faName": "رهنان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2683,6 +2929,7 @@
         {
             "id": 418571,
             "name": "Qahder\u012bj\u0101n",
+            "faName": "قهدریجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2693,6 +2940,7 @@
         {
             "id": 418606,
             "name": "Najaf\u0101b\u0101d",
+            "faName": "نجف آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2703,6 +2951,7 @@
         {
             "id": 418710,
             "name": "Khomeyn\u012b Shahr",
+            "faName": "خمینی شهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2713,6 +2962,7 @@
         {
             "id": 418723,
             "name": "Kel\u012bsh\u0101d va S\u016bdarj\u0101n",
+            "faName": "کلیشاد و سودرجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2723,6 +2973,7 @@
         {
             "id": 418851,
             "name": "Fal\u0101varj\u0101n",
+            "faName": "فلاورجان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2733,6 +2984,7 @@
         {
             "id": 418862,
             "name": "Isfahan",
+            "faName": "اصفهان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2743,6 +2995,7 @@
         {
             "id": 418863,
             "name": "Isfahan",
+            "faName": "اصفهان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2753,6 +3006,7 @@
         {
             "id": 418868,
             "name": "Dowlat\u0101b\u0101d",
+            "faName": "دولت آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2763,6 +3017,7 @@
         {
             "id": 418896,
             "name": "Dorcheh P\u012b\u0101z",
+            "faName": "درچه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2773,6 +3028,7 @@
         {
             "id": 443792,
             "name": "Ost\u0101n-e Golest\u0101n",
+            "faName": "گلستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2783,6 +3039,7 @@
         {
             "id": 443793,
             "name": "Ost\u0101n-e Qazv\u012bn",
+            "faName": "قزوین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2793,6 +3050,7 @@
         {
             "id": 443794,
             "name": "Qom",
+            "faName": "قم",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2803,6 +3061,7 @@
         {
             "id": 449504,
             "name": "Esl\u0101mshahr",
+            "faName": "اسلام شهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2813,6 +3072,7 @@
         {
             "id": 1113217,
             "name": "Z\u0101bol",
+            "faName": "زابل",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2823,6 +3083,7 @@
         {
             "id": 1114776,
             "name": "Tomp-e R\u012bg\u0101n",
+            "faName": "تمپ ریگان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2833,6 +3094,7 @@
         {
             "id": 1159301,
             "name": "Zahedan",
+            "faName": "زاهدان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2843,6 +3105,7 @@
         {
             "id": 1159362,
             "name": "Torbat-e J\u0101m",
+            "faName": "تربت جام",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2853,6 +3116,7 @@
         {
             "id": 1159384,
             "name": "T\u0101yb\u0101d",
+            "faName": "تایباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2863,6 +3127,7 @@
         {
             "id": 1159456,
             "name": "Sistan and Baluchestan",
+            "faName": "سیستان و بلوچستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2873,6 +3138,7 @@
         {
             "id": 1159716,
             "name": "Sarakhs",
+            "faName": "سرخس",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2883,6 +3149,7 @@
         {
             "id": 1160571,
             "name": "Kh\u0101sh",
+            "faName": "خاش",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2893,6 +3160,7 @@
         {
             "id": 1160915,
             "name": "Jahl\u012b\u0101r",
+            "faName": "جهلیان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2903,6 +3171,7 @@
         {
             "id": 1160939,
             "name": "Iranshahr",
+            "faName": "ایرانشهر",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2913,6 +3182,7 @@
         {
             "id": 1161724,
             "name": "Chabahar",
+            "faName": "چابهار",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2923,6 +3193,7 @@
         {
             "id": 6201374,
             "name": "Ost\u0101n-e Khor\u0101s\u0101n-e Jon\u016bb\u012b",
+            "faName": "خراسان جنوبی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2933,6 +3204,7 @@
         {
             "id": 6201375,
             "name": "Ost\u0101n-e Khor\u0101s\u0101n-e Ra\u1e95av\u012b",
+            "faName": "استان خراسان رضوی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2943,6 +3215,7 @@
         {
             "id": 6201376,
             "name": "Ost\u0101n-e Khor\u0101s\u0101n-e Shom\u0101l\u012b",
+            "faName": "استان خراسان شمالی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2953,6 +3226,7 @@
         {
             "id": 6648634,
             "name": "Zov\u012byeh-ye Do",
+            "faName": "زویه دو",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2963,6 +3237,7 @@
         {
             "id": 6649516,
             "name": "Dayrest\u0101n",
+            "faName": "دیرستان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2973,6 +3248,7 @@
         {
             "id": 6651320,
             "name": "Deh-e Darg\u012b",
+            "faName": "ده درگی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2983,6 +3259,7 @@
         {
             "id": 6659521,
             "name": "K\u016by-e Ekhte\u015f\u0101\u015f\u012b-ye Gomrok",
+            "faName": "کوی اختصاصی گمرک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -2993,6 +3270,7 @@
         {
             "id": 6660023,
             "name": "Shahrak-e Shah\u012bd Behesht\u012b",
+            "faName": "شهرک شهید بهشتی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3003,6 +3281,7 @@
         {
             "id": 6663476,
             "name": "K\u016by-e Em\u0101m \u1e28asan",
+            "faName": "کوی امام حسن",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3013,6 +3292,7 @@
         {
             "id": 6672193,
             "name": "M\u0101k\u016b",
+            "faName": "ماکو",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3023,6 +3303,7 @@
         {
             "id": 6683626,
             "name": "Ch\u0101h Gach\u012b",
+            "faName": "چاه قاچی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3033,6 +3314,7 @@
         {
             "id": 6686755,
             "name": "Mah\u0101b\u0101d",
+            "faName": "مهباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3043,6 +3325,7 @@
         {
             "id": 6687934,
             "name": "K\u016by-e Jomh\u016br\u012b-ye Esl\u0101m\u012b",
+            "faName": "کوی جمهوری اسلامی",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3053,6 +3336,7 @@
         {
             "id": 6689293,
             "name": "Re\u1e95\u0101\u0101b\u0101d",
+            "faName": "رضا آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3062,7 +3346,8 @@
         },
         {
             "id": 6709842,
-            "name": "Ma\u1e29all-e E\u1e29d\u0101s\u0304-e Shahrak-e Shard\u0101r\u012b-ye B\u016bk\u0101n",
+            "name": "Shahrak-e Shard\u0101r\u012b-ye B\u016bk\u0101n",
+            "faName": "شهرک شهرداری بوکان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3073,6 +3358,7 @@
         {
             "id": 6711051,
             "name": "\u0100z\u0304ar Bon\u0101b",
+            "faName": "آذر بناب",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3083,6 +3369,7 @@
         {
             "id": 6720817,
             "name": "Shahrak-e Be\u2018s\u0304at",
+            "faName": "شهرک بعثت",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3092,7 +3379,8 @@
         },
         {
             "id": 6861952,
-            "name": "Shahrak-e Mask\u016bn\u012b-ye Shah\u012bd Mo\u1e29ammad-e Montaz\u0327er\u012b",
+            "name": "Shahrak-e Shah\u012bd Mo\u1e29ammad-e Montaz\u0327er\u012b",
+            "faName": "شهرک شهید محمود منتظری",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3103,6 +3391,7 @@
         {
             "id": 6874767,
             "name": "Dowlat\u0101b\u0101d",
+            "faName": "دولت آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3113,6 +3402,7 @@
         {
             "id": 6909756,
             "name": "Ma\u1e29alleh-ye Fas\u0101r\u016bd",
+            "faName": "محله فسارود",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3123,6 +3413,7 @@
         {
             "id": 6949363,
             "name": "Famast",
+            "faName": "فاماست",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3133,6 +3424,7 @@
         {
             "id": 7011520,
             "name": "Shahrak-e Jah\u0101d",
+            "faName": "شهرک جهاد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3143,6 +3435,7 @@
         {
             "id": 7034325,
             "name": "Sa\u2018\u012bd\u0101b\u0101d-e P\u0101\u2018\u012bn",
+            "faName": "سعید آباد پایین",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3153,6 +3446,7 @@
         {
             "id": 7044034,
             "name": "Akbar\u0101b\u0101d",
+            "faName": "اکبرآباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3163,6 +3457,7 @@
         {
             "id": 7052836,
             "name": "\u1e28asan\u0101b\u0101d",
+            "faName": "حسن آباد",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3173,6 +3468,7 @@
         {
             "id": 7516325,
             "name": "Kav\u012b Mehd\u012byeh",
+            "faName": "کوی مهدیه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3183,6 +3479,7 @@
         {
             "id": 7625467,
             "name": "T\u016bs\u0101s\u0101n",
+            "faName": "توساسان",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3193,6 +3490,7 @@
         {
             "id": 7637212,
             "name": "Ma\u1e29alleh-ye Kh\u0101var",
+            "faName": "محله‌ی خاور",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3203,6 +3501,7 @@
         {
             "id": 7642294,
             "name": "Shahrak-e D\u0101neshg\u0101h",
+            "faName": "شهرک دانشگاه",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3213,6 +3512,7 @@
         {
             "id": 7648907,
             "name": "Alborz",
+            "faName": "البرز",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3223,6 +3523,7 @@
         {
             "id": 7789591,
             "name": "Pas Kal\u0101yeh-ye K\u016bchak",
+            "faName": "پس کلایه کوچک",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3233,6 +3534,7 @@
         {
             "id": 8029482,
             "name": "Darv\u0101zeh-ye Qor\u0101n",
+            "faName": "دروازه قرآن",
             "state": "",
             "country": "IR",
             "coord": {
@@ -3243,6 +3545,7 @@
         {
             "id": 8057484,
             "name": "B\u0101gh-e N\u0101r",
+            "faName": "باغ نار",
             "state": "",
             "country": "IR",
             "coord": {

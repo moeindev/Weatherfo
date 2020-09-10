@@ -13,6 +13,8 @@ data class City(
     override val dt: Int,
     @SerializedName("name")
     val name: String,
+    @SerializedName("faName")
+    val faName: String,
     @SerializedName("state")
     val state: String
 ): AdapterObject<Int>

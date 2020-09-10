@@ -12,7 +12,7 @@ import ir.moeindeveloper.weatherfo.util.ui.CitySelectListener
 import ir.moeindeveloper.weatherfo.util.ui.adapter.DiffCallback
 import java.util.*
 
-class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapter<CityAdapter.CityViewHolder>(), Filterable{
+class CityAdapter(private val listener: CitySelectListener,private val locale: String) : RecyclerView.Adapter<CityAdapter.CityViewHolder>(), Filterable{
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CityViewHolder {
@@ -48,7 +48,11 @@ class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapt
         }
 
         fun bindItem(city: City){
-            binding.itemCityName.text = city.name
+            binding.itemCityName.text = when(locale){
+                "en" -> city.name
+                "fa" -> city.faName
+                else -> city.name
+            }
         }
     }
 
@@ -57,12 +61,20 @@ class CityAdapter(private val listener: CitySelectListener) : RecyclerView.Adapt
             override fun performFiltering(p0: CharSequence?): FilterResults {
                 val charString = p0.toString()
 
-                var filtered = items
-
-                if (charString.isEmpty()) {
-                    filtered = items
+                val filtered = if (charString.isEmpty()) {
+                    items
                 } else {
-                    filtered = items.filter { city -> city.name.toLowerCase(Locale.ROOT).contains(charString.toLowerCase(Locale.ROOT)) }
+                    when(locale) {
+                        "en" -> {
+                            items.filter { city -> city.name.toLowerCase(Locale.ROOT).contains(charString.toLowerCase(Locale.ROOT)) }
+                        }
+
+                        "fa" -> {
+                            items.filter { city -> city.faName.toLowerCase(Locale.ROOT).contains(charString.toLowerCase(Locale.ROOT)) }
+                        }
+
+                        else -> items.filter { city -> city.name.toLowerCase(Locale.ROOT).contains(charString.toLowerCase(Locale.ROOT)) }
+                    }
                 }
 
                 val results = FilterResults()
