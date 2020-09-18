@@ -2,6 +2,7 @@ package ir.moeindeveloper.weatherfo.viewModel
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
+import com.haroldadmin.cnradapter.NetworkResponse
 import ir.moeindeveloper.weatherfo.data.local.CityListProvider
 import ir.moeindeveloper.weatherfo.data.model.Cities
 import ir.moeindeveloper.weatherfo.data.model.WeatherInfo
@@ -17,17 +18,26 @@ class WeatherViewModel @ViewModelInject constructor(private val repository: Weat
                                                     val settings: AppSettings,
                                                     private val cityProvider: CityListProvider): ViewModel() {
 
-
-
     @ExperimentalCoroutinesApi
     val oneCall : LiveData<Resource<WeatherInfo>> = liveData {
         commandsChannel.consumeEach {
             emit(Resource.loading(null))
-            repository.oneCall(settings.getLat(),settings.getLon()).let { response ->
-                if (response.isSuccessful){
-                    emit(Resource.success(response.body()))
-                } else {
-                    emit(Resource.error(response.errorBody().toString(),null))
+            when(val response = repository.oneCall(settings.getLat(),settings.getLon())) {
+
+                is NetworkResponse.Success -> {
+                    emit(Resource.success(response.body))
+                }
+
+                is NetworkResponse.NetworkError -> {
+                    emit(Resource.error("Network Error!",null))
+                }
+
+                is NetworkResponse.ServerError -> {
+                    emit(Resource.error("server Error",null))
+                }
+
+                is NetworkResponse.UnknownError -> {
+                    emit(Resource.error("unknown error",null))
                 }
             }
         }
@@ -45,5 +55,4 @@ class WeatherViewModel @ViewModelInject constructor(private val repository: Weat
             commandsChannel.send("reload")
         }
     }
-
 }

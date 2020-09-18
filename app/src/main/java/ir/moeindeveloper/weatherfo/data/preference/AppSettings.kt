@@ -18,6 +18,7 @@ class AppSettings @Inject constructor(@ApplicationContext private val context: C
     fun saveCity(name: String,faName: String, lat: Double, lon: Double) {
         save()
         saveName(name)
+        saveFaName(faName)
         saveLatitude(lat)
         saveLongitude(lon)
     }

@@ -1,7 +1,9 @@
 package ir.moeindeveloper.weatherfo.data.remote
 
+import com.haroldadmin.cnradapter.NetworkResponse
 import ir.moeindeveloper.weatherfo.data.Constants
 import ir.moeindeveloper.weatherfo.data.model.WeatherInfo
+import ir.moeindeveloper.weatherfo.data.model.WeatherInfoError
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -13,6 +15,6 @@ interface WeatherApiService {
                         @Query(Constants.QueryParams.lon) lon: Double? = Constants.DefaultLocation.lon,
                         @Query(Constants.QueryParams.exclude) exclude: String? = Constants.DEFAULT_EXCLUDE,
                         @Query(Constants.QueryParams.units) units: String? = Constants.DEFAULT_UNITS,
-                        @Query(Constants.QueryParams.appID) appID: String? = Constants.APP_ID): Response<WeatherInfo>
+                        @Query(Constants.QueryParams.appID) appID: String? = Constants.APP_ID): NetworkResponse<WeatherInfo,WeatherInfoError>
 
 }
