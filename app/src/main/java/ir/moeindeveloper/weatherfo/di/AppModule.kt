@@ -2,6 +2,7 @@ package ir.moeindeveloper.weatherfo.di
 
 import android.content.Context
 import android.content.SharedPreferences
+import com.haroldadmin.cnradapter.NetworkResponseAdapterFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -53,6 +54,7 @@ class AppModule {
     fun provideIceAndFireRetrofit(client: OkHttpClient): Retrofit {
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
+            .addCallAdapterFactory(NetworkResponseAdapterFactory())
             .baseUrl(Constants.BASE_URL)
             .client(client)
             .build()
